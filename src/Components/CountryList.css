@@ -1,0 +1,51 @@
+
+
+.country-list {
+    padding: 20px;
+  }
+  
+  .country-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .country-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .country-flag {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .country-details {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
