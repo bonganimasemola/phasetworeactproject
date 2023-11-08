@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { fetchCountriesData } from '../api'; 
 
 import Header from './Header';
@@ -8,9 +8,11 @@ import CountryDetail from './CountryDetail';
 import CountrySearch from './CountrySearch';
 
 function App() {
+    
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
+   
     fetchCountriesData()
       .then(data => {
         setCountries(data);
@@ -21,18 +23,24 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Header />
+    <BrowserRouter>
+      <div className="">
+        <Header />
 
-      <Routes>
-        <Route path="/" element={<CountryList countries={countries} />} />
-        <Route path="/country/:id" element={<CountryDetail countries={countries} />} />
-        <Route path="/search" element={<CountrySearch countries={countries} />} />
-      </Routes>
-    </div>
+        <Routes>
+          <Route path="/" element={<CountryList countries={countries} />} />
+          <Route path="/country/:id" element={<CountryDetail countries={countries} />} />
+          <Route path="/search" element={<CountrySearch countries={countries} />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
-}
+};
+
 
 export default App;
+
+
+
 
 

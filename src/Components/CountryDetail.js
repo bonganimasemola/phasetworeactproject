@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ function CountryDetail({ countries }) {
       <h2>Country Details</h2>
       <h3>{country.name.common}</h3>
       <p>Capital: {country.capital || 'N/A'}</p>
+      
     </div>
   );
 }
