@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './CountryList.css'; 
+import './CountryList.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CountryList({ countries }) {
@@ -30,7 +30,7 @@ function CountryList({ countries }) {
         ))}
       </div>
 
-      <div className="pagination">
+      <div className="pagination-container">
         {Array.from({ length: Math.ceil(countries.length / countriesPerPage) }, (_, index) => (
           <button
             type="button" // Add type attribute

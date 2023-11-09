@@ -1,0 +1,10 @@
+/* CountryDetail.css */
+.country-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Optionally, to fill the entire viewport */
+  }
+  
