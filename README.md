@@ -24,7 +24,9 @@ For your frontend, we recommend using NetlifyLinks to an external site.; however
 
 * To reiterate, you can either slide your finger to return to the previous page or click on the hyperlinks at the bootom of the screen (which are in the Footer component) or if the Header shows on screen you can choose to click those links to travel in your desired direction as well.
 
-* in Search (the CountrySearch component) you will be able to search by submitting the name of said country and clicking the search button, then clicking the link with the country's name, this will send you to the Country Detail page.
+* In Search (the CountrySearch component) you will be able to search by submitting the name of said country and clicking the search button, then clicking the link with the country's name, this will send you to the Country Detail page.
+
+* Be able to navigate pages by clicking the pagination buttons on the right the screen.
 
 * Note: the social media buttons on the bottom right of the screen are there for demonstration purposes, however they do link to their respective sources
 
