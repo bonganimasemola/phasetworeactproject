@@ -6,7 +6,8 @@ import Header from './Header';
 import CountryList from './CountryList';
 import CountryDetail from './CountryDetail';
 import CountrySearch from './CountrySearch';
-import Footer from './Footer'; 
+import Footer from './Footer';
+import NotFound from '../NotFound'; 
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -30,14 +31,16 @@ function App() {
           <Route path="/countries" element={<CountryList countries={countries} />} />
           <Route path="/country/:id" element={<CountryDetail countries={countries} />} />
           <Route path="/search" element={<CountrySearch countries={countries} />} />
+          <Route path="*" element={<NotFound />} /> {/* Catch-all route for "Not Found" */}
         </Routes>
-        <Footer /> 
+        <Footer />
       </div>
     </BrowserRouter>
   );
 }
 
 export default App;
+
 
 
 

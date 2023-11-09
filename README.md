@@ -3,6 +3,10 @@
 
 The aim of the project is to build a React single page application from scratch. We are to apply our knowledge of components, props and state management. We are to incorporate client-side routing and use data from an API
 
+# Difficulty
+
+Basic to Intermediate level 
+
 ## Requirements
 
 1. Set up a single page application (only one index.html file) using create-react-app
@@ -26,7 +30,9 @@ For your frontend, we recommend using NetlifyLinks to an external site.; however
 
 * In Search (the CountrySearch component) you will be able to search by submitting the name of said country and clicking the search button, then clicking the link with the country's name, this will send you to the Country Detail page.
 
-* Be able to navigate pages by clicking the pagination buttons on the right the screen.
+* Once you are Country Details clicking on the googleMaps will open Google Maps to the Capital of the country searched.
+
+* Be able to navigate pages by clicking the pagination buttons on the right the screen as alternative way to browse the country options that populate the Country List link.
 
 * Note: the social media buttons on the bottom right of the screen are there for demonstration purposes, however they do link to their respective sources
 
