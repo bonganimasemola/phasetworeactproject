@@ -4,11 +4,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh; /* Optionally, to fill the entire viewport */
+    min-height: 100vh; 
   }
   
   .country-search-container h2 {
-    margin-bottom: 20px; /* Add margin to create space below the heading */
+    margin-bottom: 20px; 
   }
   
   .country-search-container input {
