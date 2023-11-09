@@ -20,7 +20,7 @@ When the project is complete, Deploy it!
 
 For your frontend, we recommend using NetlifyLinks to an external site.; however, there are a number of free services you can use if you'd like to explore alternatives.
 
-## On the site as a User, you will:
+## On the site as a User:
 
 *  You will be able to navigate the site using the hyperlinks (Home, Country List, Search), you will also be able navigate to the next page or the page before by sliding your finger in the desired direction on the mousepad.
 

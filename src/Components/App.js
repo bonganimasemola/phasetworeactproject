@@ -7,7 +7,7 @@ import CountryList from './CountryList';
 import CountryDetail from './CountryDetail';
 import CountrySearch from './CountrySearch';
 import Footer from './Footer';
-import NotFound from '../NotFound'; 
+import NotFound from './NotFound'; 
 
 function App() {
   const [countries, setCountries] = useState([]);

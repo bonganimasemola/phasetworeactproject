@@ -1,10 +1,11 @@
 import React from 'react';
+import '../NotFound.css'; 
 
 export default function NotFound() {
   return (
-    <div>
+    <div className="not-found-container">
       <h2>Page Not Found</h2>
-      <p>The page you're looking for does not exist.</p>
+      <p>You look lost, maybe try using a GPS!</p>
     </div>
   );
 }
