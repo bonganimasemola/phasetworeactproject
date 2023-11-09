@@ -33,7 +33,7 @@ function CountryList({ countries }) {
       <div className="pagination-container">
         {Array.from({ length: Math.ceil(countries.length / countriesPerPage) }, (_, index) => (
           <button
-            type="button" // Add type attribute
+            type="button" 
             key={index + 1}
             onClick={() => goToPage(index + 1)}
             className={`btn ${currentPage === index + 1 ? 'btn-outline-secondary' : 'btn-outline-primary'}`}

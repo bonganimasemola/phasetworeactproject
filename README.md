@@ -1,11 +1,11 @@
 
 # Learning Goals
 
-The aim of the project is to build a React single page application from scratch. We are to apply our knowledge of components, props and state management. We are to incorporate client-side routing and use data from an API
+The aim of the project is to build a React single page application from scratch. We are to apply our knowledge of components, props and state management. We are to incorporate client-side routing and use data from an API.
 
 # Difficulty
 
-Basic to Intermediate level 
+Basic to Intermediate level.
 
 ## Requirements
 

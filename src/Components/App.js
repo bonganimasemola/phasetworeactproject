@@ -31,7 +31,7 @@ function App() {
           <Route path="/countries" element={<CountryList countries={countries} />} />
           <Route path="/country/:id" element={<CountryDetail countries={countries} />} />
           <Route path="/search" element={<CountrySearch countries={countries} />} />
-          <Route path="*" element={<NotFound />} /> {/* Catch-all route for "Not Found" */}
+          <Route path="*" element={<NotFound />} /> 
         </Routes>
         <Footer />
       </div>
