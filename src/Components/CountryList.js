@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './CountryList.css'; // Create a CSS file for your styling
+import './CountryList.css'; 
 
 function CountryList({ countries }) {
   const countriesPerPage = 30;
