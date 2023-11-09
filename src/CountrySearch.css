@@ -1,0 +1,36 @@
+.country-search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Optionally, to fill the entire viewport */
+  }
+  
+  .country-search-container h2 {
+    margin-bottom: 20px; /* Add margin to create space below the heading */
+  }
+  
+  .country-search-container input {
+    margin-bottom: 10px; 
+    padding: 5px; 
+  }
+  
+  .country-search-container button {
+    margin-bottom: 10px; 
+    padding: 5px 10px; 
+  }
+  
+  .country-search-container ul {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .country-search-container li {
+    margin: 5px 0; 
+  }
+  
+  .country-search-container a {
+    text-decoration: none; 
+  }
+  

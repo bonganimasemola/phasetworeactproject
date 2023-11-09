@@ -6,7 +6,7 @@ import Header from './Header';
 import CountryList from './CountryList';
 import CountryDetail from './CountryDetail';
 import CountrySearch from './CountrySearch';
-import Footer from './Footer'; // Import the Footer component
+import Footer from './Footer'; 
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -31,7 +31,7 @@ function App() {
           <Route path="/country/:id" element={<CountryDetail countries={countries} />} />
           <Route path="/search" element={<CountrySearch countries={countries} />} />
         </Routes>
-        <Footer /> {/* Add the Footer component */}
+        <Footer /> 
       </div>
     </BrowserRouter>
   );

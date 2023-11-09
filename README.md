@@ -12,17 +12,19 @@ The aim of the project is to build a React single page application from scratch.
 
 ### Deploying
 
-When your project is complete, you are encouraged to deploy it! You'll need to deploy your frontend .
+When the project is complete, Deploy it! 
 
 For your frontend, we recommend using NetlifyLinks to an external site.; however, there are a number of free services you can use if you'd like to explore alternatives.
 
-## On the site as a user, i should:
+## On the site as a User, you will:
 
-*
+*  You will be able to navigate the site using the hyperlinks (Home, Country List, Search), you will also be able navigate to the next page or the page before by sliding your finger in the desired direction on the mousepad.
 
-*
+*  Once you are on the Country List page You will to able to clickthrough to the Country Details by clicking on the card, this will fetch the data of the country clicked from the API and certain pre-set parameters for the respective country will show on the screen.
 
-*
+* To reiterate, you can either slide your finger to return to the previous page or click on the hyperlinks at the bootom of the screen (which are in the Footer component) or if the Header shows on screen you can choose to click those links to travel in your desired direction as well.
+
+* in Search (the CountrySearch component) you will be able to search by submitting the name of said country and clicking the search button, then clicking the link with the country's name, this will send you to the Country Detail page.
 
 
 # Author/Coder:

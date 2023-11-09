@@ -6,6 +6,12 @@ export default function Footer() {
   return (
     <footer>
       <div className="social-media">
+        <Link to="/">
+          Return Home
+        </Link>
+        <Link to="/countries">
+          Country List
+        </Link>
         <Link to="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-instagram"></i>
         </Link>
@@ -22,4 +28,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 
