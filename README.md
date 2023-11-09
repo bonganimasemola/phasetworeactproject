@@ -30,7 +30,7 @@ For your frontend, we recommend using NetlifyLinks to an external site.; however
 
 * In Search (the CountrySearch component) you will be able to search by submitting the name of said country and clicking the search button, then clicking the link with the country's name, this will send you to the Country Detail page.
 
-* Once you are Country Details clicking on the googleMaps will open Google Maps to the Capital of the country searched.
+* Once you are in Country Details clicking on the googleMaps hyperlink will open Google Maps to the Capital of the country searched.
 
 * Be able to navigate pages by clicking the pagination buttons on the right the screen as alternative way to browse the country options that populate the Country List link.
 
