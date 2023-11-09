@@ -45,7 +45,23 @@
   }
   
   .pagination button.active {
-    background-color: #007bff;
+    background-color: #d6dde3;
     color: #fff;
   }
+
+  /* Add custom styling for pagination buttons */
+.pagination .page-link {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Style the active page button */
+.pagination .page-item.active .page-link {
+  background-color: #dbdfe4; /* Example active button background color */
+  color: #fff; /* Example text color for active button */
+}
+
   

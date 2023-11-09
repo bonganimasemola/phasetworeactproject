@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './CountryList.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CountryList({ countries }) {
   const countriesPerPage = 30;
@@ -32,9 +33,10 @@ function CountryList({ countries }) {
       <div className="pagination">
         {Array.from({ length: Math.ceil(countries.length / countriesPerPage) }, (_, index) => (
           <button
+            type="button" // Add type attribute
             key={index + 1}
             onClick={() => goToPage(index + 1)}
-            className={currentPage === index + 1 ? 'active' : ''}
+            className={`btn ${currentPage === index + 1 ? 'btn-outline-secondary' : 'btn-outline-primary'}`}
           >
             {index + 1}
           </button>

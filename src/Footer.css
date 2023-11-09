@@ -1,25 +1,29 @@
+/* Existing CSS */
+
 /* Add this to your existing CSS file or create a new one for styling */
 .app-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Minimum height to fill the entire viewport */
-  }
-  
-  Header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-  
-  Footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    margin-top: auto; /* Push the footer to the bottom */
-    text-align: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height to fill the entire viewport */
+}
+
+Header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed; /* Set the position to fixed */
+  bottom: 0; /* Stick it to the bottom */
+  width: 100%; /* Make it full-width */
+  text-align: center;
+}
+
 /* Footer.css */
 .social-media {
   display: flex;
@@ -32,3 +36,4 @@
   color: white;
   margin-left: 10px; /* Add space between buttons */
 }
+
