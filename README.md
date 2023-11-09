@@ -26,6 +26,8 @@ For your frontend, we recommend using NetlifyLinks to an external site.; however
 
 * in Search (the CountrySearch component) you will be able to search by submitting the name of said country and clicking the search button, then clicking the link with the country's name, this will send you to the Country Detail page.
 
+* Note: the social media buttons on the bottom right of the screen are there for demonstration purposes, however they do link to their respective sources
+
 
 # Author/Coder:
 
